@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+}
+.intro {
+  position: relative;
+  top: 57%;
+  text-align: center;
+  z-index: 1;
+}
+h1 {
+  font-size: 180%;
+  padding: 2rem;
+  text-transform: uppercase;
+  color: #243665;
+  font-weight: 900;
+  text-shadow: 2px 7px 10px  #999;
+}
+h5 {
+  padding: 0 20px;
+}
+.one {
+  background-image: -webkit-linear-gradient(280deg, #243665 35%, #f4f6fa 35%);
+  height: 50vh;
+  z-index: 999;
+
+}
+.two {
+  background-image: -webkit-linear-gradient(99deg, #8bd8bd 35%, #f4f6fa 15%);
+   height: 51vh;
+   z-index: 999;
+}
